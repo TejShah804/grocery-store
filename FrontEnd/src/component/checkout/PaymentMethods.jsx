@@ -49,7 +49,7 @@ const PaymentMethods = ({ formData, handleChange, setFormData }) => {
 
       {/* Cash on Delivery */}
       {paymentBox('Cash on Delivery',
-        <span className="checkout-method-label">🏠 Cash on Delivery</span>
+        <span className="checkout-method-label"> Cash on Delivery</span>
       )}
 
       {/* UPI */}
@@ -91,7 +91,7 @@ const PaymentMethods = ({ formData, handleChange, setFormData }) => {
       {/* Credit / Debit Card */}
       {paymentBox('Credit / Debit Card',
         <div className="d-flex align-items-center gap-2 flex-grow-1">
-          <span className="checkout-method-label">💳 Credit / Debit Card</span>
+          <span className="checkout-method-label"> Credit / Debit Card</span>
           <div className="ms-auto d-flex gap-1">
             <span className="checkout-card-badge visa">VISA</span>
             <span className="checkout-card-badge mc">MC</span>
@@ -122,7 +122,7 @@ const PaymentMethods = ({ formData, handleChange, setFormData }) => {
 
       {/* Net Banking */}
       {paymentBox('Net Banking',
-        <span className="checkout-method-label">🏦 Net Banking</span>,
+        <span className="checkout-method-label"> Net Banking</span>,
         <select className="form-select checkout-input-small" name="netBank" onChange={handleChange}>
           <option value="">-- Select Your Bank --</option>
           <option>State Bank of India (SBI)</option>
@@ -138,7 +138,7 @@ const PaymentMethods = ({ formData, handleChange, setFormData }) => {
 
       {/* Wallet */}
       {paymentBox('Wallet',
-        <span className="checkout-method-label">👛 Wallet</span>,
+        <span className="checkout-method-label"> Wallet</span>,
         <div className="d-flex flex-wrap gap-2">
           {[
             { name: 'Paytm Wallet', color: '#00b9f1' },
@@ -180,7 +180,7 @@ const PaymentMethods = ({ formData, handleChange, setFormData }) => {
           </span>
           <div className="ms-auto d-flex align-items-center gap-1">
             <span className="checkout-stripe-badge">STRIPE</span>
-            <span style={{ fontSize: '10px', color: '#888' }}>🔒 Secure</span>
+            <span style={{ fontSize: '10px', color: '#888' }}> Secure</span>
           </div>
         </div>
 
@@ -195,7 +195,7 @@ const PaymentMethods = ({ formData, handleChange, setFormData }) => {
             </div>
 
             <div className="checkout-test-helper">
-              🧪 <strong>Test Card:</strong> 4242 4242 4242 4242 &nbsp;|&nbsp; Any future date &nbsp;|&nbsp; Any 3-digit CVV
+              <strong>Test Card:</strong> 4242 4242 4242 4242 &nbsp;|&nbsp; Any future date &nbsp;|&nbsp; Any 3-digit CVV
             </div>
           </div>
         )}
