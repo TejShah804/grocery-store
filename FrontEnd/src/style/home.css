@@ -1,0 +1,175 @@
+/* Custom responsive styling for the Hero Slider */
+
+.hero-carousel-img {
+  width: 100%;
+  height: 250px; /* Small screen height */
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (min-width: 576px) {
+  .hero-carousel-img {
+    height: 350px; /* Small/Medium tablet screen */
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-carousel-img {
+    height: 450px; /* Tablet portrait / small desktop */
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-carousel-img {
+    height: 550px; /* Desktop */
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-carousel-img {
+    height: 600px; /* Large Desktop */
+  }
+}
+
+/* Caption and overlay responsiveness */
+.hero-carousel-caption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.45);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  padding: 10px;
+}
+
+.hero-carousel-caption .banner-content {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .hero-carousel-caption .banner-content {
+    max-width: 75%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-carousel-caption .banner-content {
+    max-width: 60%;
+  }
+}
+
+/* Heading & Typography styling */
+.hero-carousel-caption h5 {
+  font-size: 0.75rem;
+  letter-spacing: 1px !important;
+  margin-bottom: 0.5rem !important;
+}
+
+@media (min-width: 768px) {
+  .hero-carousel-caption h5 {
+    font-size: 1.1rem;
+    letter-spacing: 2px !important;
+    margin-bottom: 1rem !important;
+  }
+}
+
+.hero-carousel-caption h1 {
+  font-weight: 700;
+  font-size: 1.35rem; /* Mobile font-size */
+  line-height: 1.25;
+  margin-bottom: 0.5rem !important;
+}
+
+@media (min-width: 576px) {
+  .hero-carousel-caption h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-carousel-caption h1 {
+    font-size: 2.75rem;
+    margin-bottom: 1rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-carousel-caption h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-carousel-caption h1 {
+    font-size: 4rem;
+  }
+}
+
+/* Description paragraph styling */
+.hero-carousel-caption p {
+  font-size: 0.8rem;
+  margin-bottom: 0.75rem !important;
+  line-height: 1.3;
+}
+
+@media (min-width: 576px) {
+  .hero-carousel-caption p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-carousel-caption p {
+    font-size: 1.15rem;
+    margin-bottom: 1.5rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-carousel-caption p {
+    font-size: 1.25rem;
+  }
+}
+
+/* Button responsive styles */
+.hero-carousel-caption .shop-btn {
+  background-color: #00B207 !important;
+  border: none !important;
+  padding: 6px 14px !important;
+  font-size: 0.75rem !important;
+  border-radius: 50px !important;
+}
+
+@media (min-width: 576px) {
+  .hero-carousel-caption .shop-btn {
+    padding: 8px 18px !important;
+    font-size: 0.85rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-carousel-caption .shop-btn {
+    padding: 10px 24px !important;
+    font-size: 1rem !important;
+  }
+}
+
+/* Previous and Next Controls responsiveness */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 10%;
+}
+
+@media (max-width: 576px) {
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}

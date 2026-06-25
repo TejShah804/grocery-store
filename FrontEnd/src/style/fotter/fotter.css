@@ -1,0 +1,66 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #111;
+    color: white;
+    padding: 2rem;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    font-family: sans-serif;
+  }
+  
+  .footer-column {
+    flex: 1;
+    min-width: 150px;
+  }
+  
+  .footer-column h4 {
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+    color: white;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-column li {
+    margin-bottom: 0.5rem;
+    color: #ccc;
+    cursor: pointer;
+  }
+  
+  .footer-column li:hover {
+    color: white;
+  }
+  
+  .brand h2.logo {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-icon {
+    color: #4ade80;
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .brand p {
+    font-size: 0.9rem;
+    color: #aaa;
+    margin: 0.5rem 0;
+  }
+  
+  .contact span {
+    color: #4ade80;
+    cursor: pointer;
+  }
+  
+  .email {
+    text-decoration: underline;
+  }
+  

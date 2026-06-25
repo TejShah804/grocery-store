@@ -1,0 +1,53 @@
+.hero-banner {
+  position: relative;
+  width: 100%;
+}
+
+.hero-banner img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 60px;
+  transform: translateY(-50%);
+  color: #1f4d1f;
+}
+
+.banner-content h5 {
+  color: #00b207;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.banner-content h1 {
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.banner-content p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.shop-btn {
+  background: #00b207;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.shop-btn:hover {
+  background: #008f05;
+}

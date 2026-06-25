@@ -1,0 +1,7 @@
+
+Backend/.env
+FrontEnd/.env
+node_modules/
+.vite/
+dist/
+build/
